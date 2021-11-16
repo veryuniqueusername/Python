@@ -9,8 +9,8 @@ fastPrimes = [2]
 def slow():
 	startTime = time.time()
 
-	for i in range(3, 1000000):
-		print(i)
+	for i in range(3, 100000):
+		# print(i)
 		for j in range(2, i):
 			if i % j == 0:
 				break
@@ -22,7 +22,7 @@ def slow():
 def fast():
 	startTime = time.time()
 
-	for i in range(3, 5000000, 2):
+	for i in range(3, 100000, 2):
 		for j in fastPrimes:
 			if i % j == 0:
 				break
