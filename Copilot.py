@@ -18,4 +18,4 @@ def main(n:int):
   print('Slow:', time.time() - startTime, 's')
   return primes, time.time() - startTime, len(primes)
 
-print(main(100000))
+print(main(10000))
