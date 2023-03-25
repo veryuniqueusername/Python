@@ -4,6 +4,6 @@ public class App() {
   }
 
   String func() {
-    return("Jd")
+    return("Jd");
   }
 }
