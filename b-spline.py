@@ -1,6 +1,6 @@
 import numpy as np
 
-np.set_printoptions(linewidth=150)
+np.set_printoptions(linewidth=400)
 
 size: int = 17
 # C = size - 2
