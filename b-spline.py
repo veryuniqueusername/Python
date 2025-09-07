@@ -2,7 +2,7 @@ import numpy as np
 
 np.set_printoptions(linewidth=400)
 
-size: int = 17
+size: int = 102
 # C = size - 2
 matrix: list[list[int]] = []
 factor: list[list[int]] = []
