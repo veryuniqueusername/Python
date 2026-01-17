@@ -1,1 +1,0 @@
-(primes.index(99991))
